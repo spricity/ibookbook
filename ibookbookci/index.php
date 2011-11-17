@@ -1,5 +1,10 @@
 <?php
-function dbg(){}
+function dbg($data='',$f=false){
+	echo '<pre>';
+	print_r($data);
+	if(!$f)
+	exit;
+}
 date_default_timezone_set ('Asia/Shanghai');
 /*
  *---------------------------------------------------------------
